@@ -1,4 +1,4 @@
-FROM panubo/sshd:1.0.3
+FROM panubo/sshd:1.2.1
 RUN apk update && \
     apk add borgbackup && \
     rm -rf /var/cache/apk/*
